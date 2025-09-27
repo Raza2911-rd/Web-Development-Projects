@@ -1,0 +1,54 @@
+body{
+    background-image: url('bg.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+.header{
+    font-weight: bold;
+    color: rgb(34, 26, 151);
+    font-family: 'Bubble Font', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.btn{
+    background: linear-gradient(to bottom, #f9a34b, #f97d2b);
+    border: 2px solid brown;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Bubble Font', sans-serif;
+    padding: 10px,20px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    font-size: large;
+}
+.btn2{
+     background: linear-gradient(to bottom, #f9a34b, #f97d2b);
+    border: 2px solid brown;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Bubble Font', sans-serif;
+    padding: 10px,20px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    font-size: large;
+}
+.btn3{
+     background: linear-gradient(to bottom, #f9a34b, #f97d2b);
+    border: 2px solid brown;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Bubble Font', sans-serif;
+    padding: 10px,20px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    font-size: large;
+}
