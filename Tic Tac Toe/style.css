@@ -26,29 +26,8 @@ body{
     width: 150px;
     font-size: large;
 }
-.btn2{
-     background: linear-gradient(to bottom, #f9a34b, #f97d2b);
-    border: 2px solid brown;
-    border-radius: 15px;
-    color: white;
-    font-family: 'Bubble Font', sans-serif;
-    padding: 10px,20px;
-    text-align: center;
-    display: block;
-    margin: 10px auto;
-    width: 150px;
-    font-size: large;
-}
-.btn3{
-     background: linear-gradient(to bottom, #f9a34b, #f97d2b);
-    border: 2px solid brown;
-    border-radius: 15px;
-    color: white;
-    font-family: 'Bubble Font', sans-serif;
-    padding: 10px,20px;
-    text-align: center;
-    display: block;
-    margin: 10px auto;
-    width: 150px;
-    font-size: large;
-}
+
+/* #main-menu
+{
+    background: #08ee3a;
+} */
