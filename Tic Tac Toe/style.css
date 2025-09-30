@@ -1,8 +1,14 @@
 body{
-    background-image: url('bg.jpg');
-    background-size: cover;
-    height: 100vh;
     margin: 0;
+    padding: 0;
+}
+.background-image{
+   background-image: url(bg.jpg);
+   background-size: cover;
+   display: flex;
+   background-repeat: no-repeat;
+   height: 100vh;
+
 }
 .header{
     font-weight: bold;
