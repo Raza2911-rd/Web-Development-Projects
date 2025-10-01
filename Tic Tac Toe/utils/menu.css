@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    background-color: cyan;
+}
+
+.title {
+    display: flex;
+    align-content: center;
+}
+
+.main-text
+{
+    text-align: center;
+}
