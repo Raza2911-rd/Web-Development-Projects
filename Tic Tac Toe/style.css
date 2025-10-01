@@ -1,8 +1,42 @@
 body{
-    background-image: url('bg.jpg');
-    background-size: cover;
-    height: 100vh;
+    /* 1. Remove default browser margin/padding that causes scrollbars */
     margin: 0;
+    padding: 0;
+    /* 2. Set dimensions to the viewport (the visible screen area) */
+    width: 100vw;
+    height: 100vh;
+    /* 3. Hide any potential overflow */
+    overflow: hidden; 
+}
+#container { 
+    position: relative; /* All absolutely positioned children will be relative to this */
+    width: 100vw;       /* Set width to full viewport width */
+    height: 100vh;      /* Set height to full viewport height */
+    /* overflow: hidden; */
+}
+#bg-img{
+   /* 2. Ensure the image covers the whole container */
+    width: 100%;
+    height: 100%;
+    /* 'object-fit: cover' ensures the image covers the area without distortion */
+    object-fit: cover; 
+    display: block;
+}
+#main-menu
+{
+    /* 3. Take the menu out of the normal flow and position it over the image */
+    position: absolute; 
+    top: 50%;           /* Move the top edge to the vertical center */
+    left: 50%;          /* Move the left edge to the horizontal center */
+    /* Translate shifts the element back by half its own width/height for perfect centering */
+    transform: translate(-50%, -50%); 
+
+    /* Existing styles, just ensure the positioning rules are included: */
+    background: #f3b50a9a;
+    width: 250px;
+    padding: 35px;
+    border-radius: 35px;
+    /* Removed 'margin: auto' and 'margin-top: 25%' because 'top/left/transform' handles centering */
 }
 .header{
     font-weight: bold;
@@ -31,16 +65,8 @@ body{
     cursor: pointer;
 }
 
-#main-menu
-{
-    background: #f3b50a9a;
-    width: 250px;
-    padding: 35px;
-    
-    margin: auto;
-    margin-top: 25%;
 
-    border-radius: 35px;
-    /* display: flex; */
-    align-items: center;
+/* ! To hide elements, you can use this class */
+.hidden {
+    display: none !important; /* Forces the element to hide, overriding other CSS */
 }
