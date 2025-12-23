@@ -1,0 +1,84 @@
+#hello {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: linear-gradient(45deg, #0126f7 5%, #08c7bd 95%);
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+.greet {
+    font-size: 28px;
+    color: #eeb20d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro {
+    font-size: 18px;
+    color: #ffffff;
+    max-width: 600px;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+#stack-block {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.stack {
+    background-color: #050d5a;
+    padding: 10px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.stack > img {
+    border-radius: 20px;
+    box-shadow: #a291f0 1px 1px 5px;
+}
+
+#projects-box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    /* background: linear-gradient(30deg, #666b88 15%, #a0c7c5 85%); */
+    /* border-radius: 20px 0px; */
+}
+
+.project {
+    background-color: #363636;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: #888888 2px 2px 8px;
+    width: 98.5%;
+}
+
+.description {
+    font-size: 18px;
+    color: #BEBDB8;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.project-link {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+    color: #a09f9a;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.project-link:hover {
+    color: #eeb20d;
+}
+
+.project-link:active {
+    color: #b9b8b4;
+}
